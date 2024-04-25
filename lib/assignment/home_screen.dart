@@ -57,8 +57,8 @@ class HomeScreen extends StatelessWidget {
                   boxShadow: [
                     BoxShadow(
                       color: Colors.grey.withOpacity(0.5), // Shadow color
-                      spreadRadius: 5, // Spread radius
-                      blurRadius: 9, // Blur radius
+                      spreadRadius: 10, // Spread radius
+                      blurRadius: 10, // Blur radius
                       offset: const Offset(0, 3), // Offset in x and y directions
                     ),
                   ],
@@ -90,8 +90,8 @@ class HomeScreen extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey.withOpacity(0.5), // Shadow color
-                    spreadRadius: 5, // Spread radius
-                    blurRadius: 9, // Blur radius
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
                     offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
@@ -123,8 +123,8 @@ class HomeScreen extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey.withOpacity(0.5), // Shadow color
-                    spreadRadius: 5, // Spread radius
-                    blurRadius: 9, // Blur radius
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
                     offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
@@ -156,8 +156,8 @@ class HomeScreen extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey.withOpacity(0.5), // Shadow color
-                    spreadRadius: 5, // Spread radius
-                    blurRadius: 9, // Blur radius
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
                     offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
@@ -189,8 +189,8 @@ class HomeScreen extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey.withOpacity(0.5), // Shadow color
-                    spreadRadius: 5, // Spread radius
-                    blurRadius: 9, // Blur radius
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
                     offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
@@ -222,8 +222,8 @@ class HomeScreen extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey.withOpacity(0.5), // Shadow color
-                    spreadRadius: 5, // Spread radius
-                    blurRadius: 9, // Blur radius
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
                     offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
@@ -254,8 +254,8 @@ class HomeScreen extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey.withOpacity(0.5), // Shadow color
-                    spreadRadius: 5, // Spread radius
-                    blurRadius: 9, // Blur radius
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
                     offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
@@ -287,8 +287,8 @@ class HomeScreen extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey.withOpacity(0.5), // Shadow color
-                    spreadRadius: 5, // Spread radius
-                    blurRadius: 9, // Blur radius
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
                     offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
