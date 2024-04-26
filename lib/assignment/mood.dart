@@ -125,7 +125,7 @@ class Mood extends StatelessWidget{
              mainAxisAlignment: MainAxisAlignment.start,
             children: [
             Padding(
-              padding: EdgeInsets.fromLTRB(30, 0, 0, 12),
+              padding: EdgeInsets.fromLTRB(30, 0, 0, 15),
                 child: Text(
                   'Suggestions',
                   style: TextStyle(
