@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: CustomAppBar(
-        appBarColor: Colors.green,
+        appBarColor: const Color.fromRGBO(44, 171, 0, 1.0),
         leadingIcon: CupertinoButton(
           padding: EdgeInsets.zero,
           child: Container(

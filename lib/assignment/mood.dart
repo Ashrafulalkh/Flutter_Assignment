@@ -1,3 +1,4 @@
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -11,7 +12,7 @@ class Mood extends StatelessWidget{
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: CustomAppBar(
-        appBarColor: Colors.green,
+        appBarColor: const Color.fromRGBO(44, 171, 0, 1.0),
         leadingIcon: CupertinoButton(
           padding: EdgeInsets.zero,
           child: Container(
@@ -36,31 +37,31 @@ class Mood extends StatelessWidget{
 
       body: Column(
         children: [
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Container(
-                height: 300,
-                width: double.maxFinite,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(25),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey.withOpacity(0.5), // Shadow color
-                      spreadRadius: 10, // Spread radius
-                      blurRadius: 10, // Blur radius
-                      offset: const Offset(0, 3), // Offset in x and y directions
-                    ),
-                  ],
-                  image: const DecorationImage(
-                    image: AssetImage('images/mood.jpg'),
-                    fit: BoxFit.cover,
+          Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Container(
+              height: 270,
+              width: double.maxFinite,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(25),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey.withOpacity(0.5), // Shadow color
+                    spreadRadius: 10, // Spread radius
+                    blurRadius: 10, // Blur radius
+                    offset: const Offset(0, 3), // Offset in x and y directions
                   ),
+                ],
+                image: const DecorationImage(
+                  image: AssetImage('images/mood.jpg'),
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
+          ),
 
           const SizedBox(
-            height: 8,
+            height: 5,
           ),
 
           const Row(
@@ -70,10 +71,10 @@ class Mood extends StatelessWidget{
                 padding: EdgeInsets.fromLTRB(25, 0, 0, 0),
                 child: Text(
                   'Mood With Nature',
-                   style: TextStyle(
-                     fontWeight: FontWeight.w500,
-                     fontSize: 22,
-                   ),
+                  style: TextStyle(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 22,
+                  ),
                 ),
               ),
             ],
@@ -103,7 +104,7 @@ class Mood extends StatelessWidget{
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.symmetric(horizontal: 143,vertical: 12),
-                    backgroundColor: Colors.green,
+                    backgroundColor: const Color.fromRGBO(44, 171, 0, 1.0),
                     elevation: 20,
                   ),
                   onPressed: () {},
@@ -120,11 +121,112 @@ class Mood extends StatelessWidget{
             ),
           ),
 
+           const Row(
+             mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+            Padding(
+              padding: EdgeInsets.fromLTRB(30, 0, 0, 12),
+                child: Text(
+                  'Suggestions',
+                  style: TextStyle(
+                    color: Color.fromRGBO(44, 171, 0, 1.0),
+                    fontSize: 18,
+                    ),
+                  ),
+               ),
+            ],
+          ),
+
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 0, 5),
+                child: Container(
+                  height: 160,
+                  width: 165,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(25),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.5), // Shadow color
+                        spreadRadius: 10, // Spread radius
+                        blurRadius: 10, // Blur radius
+                        offset: const Offset(0, 3), // Offset in x and y directions
+                      ),
+                    ],
+                    image: const DecorationImage(
+                      image: AssetImage('images/dawn.jpg'),
+                      fit: BoxFit.cover,
+                    ),
+
+                  ),
+                  child: const Align(
+                    alignment: Alignment.bottomLeft,
+                    child: Padding(
+                      padding: EdgeInsets.all(15.0),
+                      child: Text(
+                        'Dawn',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 19,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+
+              const SizedBox(
+                width: 15,
+              ),
+
+              Padding(
+                padding: const EdgeInsets.fromLTRB(10, 0, 0, 5),
+                child: Container(
+                  height: 160,
+                  width: 165,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(25),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.5), // Shadow color
+                        spreadRadius: 10, // Spread radius
+                        blurRadius: 10, // Blur radius
+                        offset: const Offset(0, 3), // Offset in x and y directions
+                      ),
+                    ],
+                    image: const DecorationImage(
+                      image: AssetImage('images/leaves.jpg'),
+                      fit: BoxFit.cover,
+                    ),
+
+                  ),
+                  child: const Align(
+                    alignment: Alignment.bottomLeft,
+                    child: Padding(
+                      padding: EdgeInsets.all(15.0),
+                      child: Text(
+                        'Leaves',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 19,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+
 
 
         ],
 
       ),
+
 
 
     );
