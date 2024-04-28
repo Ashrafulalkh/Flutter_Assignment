@@ -265,7 +265,7 @@ class AstheticPage extends StatelessWidget{
                           const Padding(
                             padding: EdgeInsets.fromLTRB(25, 10, 0, 0),
                             child: Text(
-                              'Mood With Nature',
+                              'Mood With Asthetic',
                               style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 fontSize: 22,
