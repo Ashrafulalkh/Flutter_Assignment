@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
-  final Widget leadingIcon;
+  final Widget? leadingIcon;
   final Widget trailingIcon;
   final Widget title;
   final Color? appBarColor;
 
-  CustomAppBar({required this.leadingIcon, required this.trailingIcon, required this.title, this.appBarColor});
+  CustomAppBar({ this.leadingIcon, required this.trailingIcon, required this.title, this.appBarColor});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 
-  @override
   bool shouldFullyObstruct(BuildContext context) {
     return true;
   }
