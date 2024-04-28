@@ -31,7 +31,7 @@ class AstheticPage extends StatelessWidget{
           },
         ),
         trailingIcon: const Icon(Icons.more_vert,color: Colors.white,),
-        title: const Center(child: Text('Mood',style: TextStyle(color: Colors.white),)),
+        title: const Center(child: Text('Asthetic',style: TextStyle(color: Colors.white),)),
       ),
 
       body: OrientationBuilder(
@@ -56,7 +56,7 @@ class AstheticPage extends StatelessWidget{
                             ),
                           ],
                           image: const DecorationImage(
-                            image: AssetImage('images/mood.jpg'),
+                            image: AssetImage('images/aesthetics.jpg'),
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -73,7 +73,7 @@ class AstheticPage extends StatelessWidget{
                         Padding(
                           padding: EdgeInsets.fromLTRB(25, 0, 0, 0),
                           child: Text(
-                            'Mood With Nature',
+                            'Mood With Asthetic',
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 22,
@@ -89,7 +89,7 @@ class AstheticPage extends StatelessWidget{
                         Padding(
                           padding: EdgeInsets.fromLTRB(25, 20, 20, 0),
                           child: Text(
-                            'Being In Nature, or Even Viewing Scenes of Nature, Reduces Anger, Fear, and Stress And Increases Pleasant Fellings',
+                            'Engaging with aesthetic beauty, or simply appreciating artistic expressions, diminishes worries, insecurities, and tensions, while evoking a sense of inspiration and inner peace',
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 15,
@@ -249,7 +249,7 @@ class AstheticPage extends StatelessWidget{
                             ),
                           ],
                           image: const DecorationImage(
-                            image: AssetImage('images/mood.jpg'),
+                            image: AssetImage('images/aesthetics.jpg'),
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -278,7 +278,7 @@ class AstheticPage extends StatelessWidget{
                           const Padding(
                             padding: EdgeInsets.fromLTRB(25, 0, 20, 0),
                             child: Text(
-                              'Being In Nature, or Even Viewing Scenes of Nature, Reduces Anger, Fear, and Stress And Increases Pleasant Fellings',
+                              'Engaging with aesthetic beauty, or simply appreciating artistic expressions, diminishes worries, insecurities, and tensions, while evoking a sense of inspiration and inner peace',
                               style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 fontSize: 15,

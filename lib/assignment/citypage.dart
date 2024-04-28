@@ -31,7 +31,7 @@ class CityPage extends StatelessWidget{
           },
         ),
         trailingIcon: const Icon(Icons.more_vert,color: Colors.white,),
-        title: const Center(child: Text('Mood',style: TextStyle(color: Colors.white),)),
+        title: const Center(child: Text('City',style: TextStyle(color: Colors.white),)),
       ),
 
       body: OrientationBuilder(
@@ -56,7 +56,7 @@ class CityPage extends StatelessWidget{
                             ),
                           ],
                           image: const DecorationImage(
-                            image: AssetImage('images/mood.jpg'),
+                            image: AssetImage('images/city.jpg'),
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -73,7 +73,7 @@ class CityPage extends StatelessWidget{
                         Padding(
                           padding: EdgeInsets.fromLTRB(25, 0, 0, 0),
                           child: Text(
-                            'Mood With Nature',
+                            'Mood In City',
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 22,
@@ -89,7 +89,7 @@ class CityPage extends StatelessWidget{
                         Padding(
                           padding: EdgeInsets.fromLTRB(25, 20, 20, 0),
                           child: Text(
-                            'Being In Nature, or Even Viewing Scenes of Nature, Reduces Anger, Fear, and Stress And Increases Pleasant Fellings',
+                            'Navigating through cityscapes, or marveling at urban vistas, dissipates tension, confinement, and isolation, while evoking a sense of vibrancy and interconnectedness',
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 15,
@@ -249,7 +249,7 @@ class CityPage extends StatelessWidget{
                             ),
                           ],
                           image: const DecorationImage(
-                            image: AssetImage('images/mood.jpg'),
+                            image: AssetImage('images/city.jpg'),
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -265,7 +265,7 @@ class CityPage extends StatelessWidget{
                           const Padding(
                             padding: EdgeInsets.fromLTRB(25, 10, 0, 0),
                             child: Text(
-                              'Mood With Nature',
+                              'Mood In City',
                               style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 fontSize: 22,
@@ -278,7 +278,7 @@ class CityPage extends StatelessWidget{
                           const Padding(
                             padding: EdgeInsets.fromLTRB(25, 0, 20, 0),
                             child: Text(
-                              'Being In Nature, or Even Viewing Scenes of Nature, Reduces Anger, Fear, and Stress And Increases Pleasant Fellings',
+                              'Navigating through cityscapes, or marveling at urban vistas, dissipates tension, confinement, and isolation, while evoking a sense of vibrancy and interconnectedness',
                               style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 fontSize: 15,

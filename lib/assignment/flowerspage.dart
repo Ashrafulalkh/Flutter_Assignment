@@ -56,7 +56,7 @@ class FlowerPage extends StatelessWidget{
                             ),
                           ],
                           image: const DecorationImage(
-                            image: AssetImage('flowers/mood.jpg'),
+                            image: AssetImage('images/flowers.jpg'),
                             fit: BoxFit.cover,
                           ),
                         ),
