@@ -1,4 +1,4 @@
-![image](https://github.com/Ashrafulalkh/Flutter_Assignment/assets/160164446/2aadb3f7-3e39-4993-8ec1-d12d33325c22)# practice
+# practice
 
 A new Flutter project 'Photo Gallery'.
 
