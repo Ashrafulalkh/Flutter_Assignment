@@ -292,7 +292,7 @@ class CityPage extends StatelessWidget{
                             padding: const EdgeInsets.all(15),
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                padding: const EdgeInsets.symmetric(horizontal: 143, vertical: 12),
+                                padding: const EdgeInsets.symmetric(horizontal: 170, vertical: 12),
                                 backgroundColor: const Color.fromRGBO(44, 171, 0, 1.0),
                                 elevation: 20,
                               ),
